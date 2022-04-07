@@ -24,8 +24,7 @@ public class ArrayListUnderground_7 {
         list.add("Waterloo East Station");
         list.add("Westminster Station");
 
-        for (String underground_tube_names : list) {
-        System.out.println(underground_tube_names.isEmpty());
-        }
+        System.out.println("List is empty: " + list.isEmpty());
+        System.out.println(list);
     }
 }
